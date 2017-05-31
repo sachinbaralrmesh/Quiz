@@ -1,0 +1,22 @@
+﻿<Window x:Class="Quiz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid HorizontalAlignment="Right" Width="517" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="244*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Name="sp_question" HorizontalAlignment="Left" Height="230" Margin="30,9,0,0" Grid.Row="1" VerticalAlignment="Top" Width="453">
+            <TextBlock x:Name="tb_question" Height="50" TextWrapping="Wrap" Text="{Binding question}"></TextBlock>
+            <ListBox x:Name="lb_answer" HorizontalAlignment="Left" Margin="0,5,0,0" ItemsSource="{Binding answers}" DisplayMemberPath="answer" Height="75" Width="450"></ListBox>
+        </StackPanel>
+        <Button x:Name="btn_ok" Content="OK" HorizontalAlignment="Center" Margin="222,3,220,0" Grid.Row="2" VerticalAlignment="Top" Width="75" Click="btn_ok_Click"/>
+      </Grid>
+</Window>

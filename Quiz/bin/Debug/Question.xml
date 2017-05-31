@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <id>0</id>
+    <question>Why you don't use intelligence?</question>
+    <answers>
+      <Answer>
+        <answer>not used to</answer>
+        <status>true</status>
+      </Answer>
+      <Answer>
+        <answer>I likw writing</answer>
+        <status>false</status>
+      </Answer>
+      <Answer>
+        <answer>lazy</answer>
+        <status>false</status>
+      </Answer>
+    </answers>
+  </Question>
+
+ <Question>
+    <id>1</id>
+    <question>WPF?</question>
+    <answers>
+      <Answer>
+        <answer>Windows presentation foundation</answer>
+        <status>true</status>
+      </Answer>
+      <Answer>
+        <answer>Windows presentation file</answer>
+        <status>false</status>
+      </Answer>
+      <Answer>
+        <answer>Windows presentation form</answer>
+        <status>false</status>
+      </Answer>
+    </answers>
+  </Question>
+ <Question>
+    <id>2</id>
+    <question>WCF?</question>
+    <answers>
+      <Answer>
+        <answer>Windows communication foundation</answer>
+        <status>true</status>
+      </Answer>
+      <Answer>
+        <answer>Windows communication file</answer>
+        <status>false</status>
+      </Answer>
+      <Answer>
+        <answer>Windows communication form</answer>
+        <status>false</status>
+      </Answer>
+    </answers>
+  </Question>
+ <Question>
+    <id>3</id>
+    <question>1,3,6,8,16,_?</question>
+    <answers>
+      <Answer>
+        <answer>18</answer>
+        <status>true</status>
+      </Answer>
+      <Answer>
+        <answer>17</answer>
+        <status>false</status>
+      </Answer>
+      <Answer>
+        <answer>20</answer>
+        <status>false</status>
+      </Answer>
+    </answers>
+  </Question>
+ <Question>
+    <id>4</id>
+    <question>E-mail?</question>
+    <answers>
+      <Answer>
+        <answer>Electronic-mail</answer>
+        <status>true</status>
+      </Answer>
+      <Answer>
+        <answer>Electrical-mail</answer>
+        <status>false</status>
+      </Answer>
+      <Answer>
+        <answer>Ecommerce-mail</answer>
+        <status>false</status>
+      </Answer>
+    </answers>
+  </Question>
+</ArrayOfQuestion>
